@@ -1,0 +1,40 @@
+#creds{
+    padding: 5%;
+    opacity: 50%;
+}
+
+
+@media screen and (min-width:600px) {
+    #containeredu {
+        display: grid;   
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+        padding-right: 2em;
+        padding-left: 10%;
+    }
+    #highschool{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding-right: 5em;
+    }
+    #highschooldate{
+        grid-row: 1/2;
+        grid-column: 3/4;
+        }
+
+    #uni{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        padding-right: 5em;
+
+    }
+    #unidate{
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    article h1{
+        padding: 5%;
+    }
+
+    }

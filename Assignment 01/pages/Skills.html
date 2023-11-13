@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../styles/Skills.css" />
+    <link rel="stylesheet" href="../styles/Universal.css" />
+    <title>MyProfile</title>
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <div class="nav">
+        <a href="../Index.html">About</a>
+        <a href="/pages/Skills.html"> Skills</a>
+        <a href="/pages/Education.html">Education</a>
+        <a href="/pages/Experience.html">Experience</a>
+        <a href="/pages/Interests.html">Interests</a>
+  </nav>
+  <div id="container">
+    <section>
+      <img src="../images/toilet time.jpeg" alt="picture of me">
+      <h1>
+        Matthew Deng
+      </h1>
+      <p>
+        Student, Batman
+      </p>
+      <p>
+        <a href="mailto: abc.@example.com">mdeng355@mtroyal.ca</a>
+        </p>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+  <script id="Chart">
+  var xValues = ["Sleeping", "Martial Arts", "Cooking", "Coding",];
+  var yValues = [75, 60, 50, 25];
+  var barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Skills"
+    }
+  }
+});
+</script>
+</div>
+<div class="footer">
+<footer>
+  <p>&copy; Matthew Deng 2023</p>
+</footer>
+</div>
+</body>
+</html>

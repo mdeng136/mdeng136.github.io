@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+#int {
+font-family: sans-serif;
+list-style: '- ';
+}
+li{
+    padding-top: 1em;
+}
+@media screen and (min-width:600px){
+#interests{
+    padding-right: 32%;
+    padding-top: 3%;
+}
+}
